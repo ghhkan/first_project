@@ -1,0 +1,385 @@
+/* Global Styles : DO NOT EDIT */
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+#container{
+	width: 1100px;
+	height:5000px;
+	position: relative;
+	left: 50%;
+	margin-left: -550px;
+	background-color: none; /* just for position the objects, can delet after all objects are set*/
+}
+
+
+
+/* top part */
+
+#part1{
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background-color: white;
+}
+
+/* The World Issue text */
+
+#topword{
+	width:300px;
+	height:30px;
+	position: relative;
+	left: 50%;
+	margin-left:-125px;
+	top:70px;
+	z-index: 1;
+	-webkit-animation: top_fade 1s;
+	animation-delay: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+.title{
+	font-family: 'Mukta', sans-serif;
+	font-size: 20px;
+	opacity: 0;
+}
+
+/* Cyber text */
+#middword{
+	width: 300px;
+	height: 70px;
+	position: relative;
+	left: 50%;
+	margin-left:-125px;
+	top: 70px;
+	float: left;
+	z-index: 1;
+	-webkit-animation: midd_fade 3s;
+	animation-delay: 4s;
+	-webkit-animation-fill-mode: forwards;
+}
+.title1{
+	font-family: 'Mukta', sans-serif;
+	font-size: 70px;
+	font-weight: bold;
+	opacity: 0;
+}
+
+/* Bullying text */
+#bottomword{
+	width: 300px;
+	height: 70px;
+	position: relative;
+	left: 50%;
+	margin-left:-125px;
+	top:70px;
+	clear: both;
+	z-index: 1;
+	-webkit-animation: bottom_fade 3s;
+	animation-delay: 4s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+/* hand picture */
+#hand{
+	position: relative;
+	top: -130px;
+	margin-left: 50%;
+	-webkit-animation: hand_fade 2s;
+}
+
+/* intro */
+#intro{
+	position: relative;
+	left: 50%;
+	margin-left:-125px;
+	top:-100px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	-webkit-animation: intro_move 2s;
+	animation-delay: 6s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	opacity: 0;
+	font-weight: bold;
+	line-height:200%;
+}
+
+#down{
+	width: 20px;
+	height: 20px;
+	left: 50%;
+	margin-left: -10px;
+	top:10px;
+	position: relative;
+	animation-delay: 6s;
+	-webkit-animation: down_fade 2s infinite;
+}
+
+#down1{
+	width: 20px;
+	height: 20px;
+	left: 50%;
+	margin-left: -10px;
+	position: relative;
+	animation-delay: 6s;
+	-webkit-animation: down_fade 2s infinite;
+}
+
+#part2{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-color: white;
+
+}
+#combine{
+	top: 100px;
+	width: 100%;
+	height: 250px;
+	position: relative;
+
+}
+/* mean text */
+
+#redtag{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	left: 50%;
+	margin-left:-375px;
+	width: 400px;
+	height: 250px;
+	text-align: center;
+
+}
+
+.tag{
+	border:solid 0.5px red;
+	background: red;
+}
+
+#fade{
+	opacity: 0;
+	-webkit-animation: fade_fade 2s;
+	animation-delay: 8s;
+	-webkit-animation-fill-mode: forwards;
+
+}
+
+#fade2{
+	opacity: 0;
+	-webkit-animation: fade2_fade 2s;
+	animation-delay: 8s;
+	-webkit-animation-fill-mode: forwards;
+
+}
+
+#fade3{
+	opacity: 0;
+	-webkit-animation: fade3_fade 2s;
+	animation-delay: 8s;
+	-webkit-animation-fill-mode: forwards;
+
+}
+
+#fade4{
+	opacity: 0;
+	-webkit-animation: fade3_fade 3s;
+	animation-delay: 8s;
+	-webkit-animation-fill-mode: forwards;
+
+}
+/* click */
+
+#click{
+	margin-right: 125px;
+	position: relative;
+	float: right;
+	-webkit-animation: click_move 8s;
+	animation-delay: 8s;
+}
+
+#part3{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	background-color: white;
+}
+
+
+
+#section{
+	position: relative;
+	left: 25%;
+	margin-left: -250px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	float: left;
+}
+
+#section2{
+	position: relative;
+	left: 50%;
+	margin-left: -125px;
+	width: 250px;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+
+#section3{
+	position: relative;
+	left: 75%;
+	margin-left: -125px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	float: left;
+	float: left;
+}
+
+#section4{
+	position: relative;
+	left: 50%;
+	margin-left:-125px;
+	top:50px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+}
+
+.text1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height:200%;
+}
+
+.important{
+	-webkit-animation: color_change 2s infinite ease;
+}
+
+
+#stop{
+	display: block;
+	top: 100px;
+	margin: 0 auto;
+	position: relative;
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+
+#stop:hover {
+    width: 400px;
+    height: 400px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+		background-image: url("../img/stop.png");
+		background-repeat: no-repeat;
+		background-size: 400px 400px;
+	}
+
+@-webkit-keyframes hand_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes top_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes midd_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes bottom_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes intro_move{
+	0% {top:0px; opacity: 0;}
+	100% {top:-50px; opacity: 1;}
+}
+
+@-webkit-keyframes down_fade {
+	0% {opacity: 0; top:0px;}
+	100% {opacity: 1; }
+}
+
+
+
+@-webkit-keyframes click_move{
+	0% {top:0px;}
+	5.55% {top:10px;}
+	11.10% {top:0px;}
+	16.65% {top:10px;}
+	22.20% {top:0px;}
+	27.75% {top:10px;}
+	33.30% {top:0px;}
+	38.85% {top:10px;}
+	44.40% {top:0px;}
+	100% {top:0px;}
+}
+
+@-webkit-keyframes fade_fade {
+	0% {opacity: 0; }
+	12.5% {opacity: 1; }
+	25% {opacity: 1; }
+	37.5% {opacity: 1;}
+	50% {opacity: 1;}
+	62.5% {opacity: 1;}
+	75% {opacity: 1;}
+	87.5% {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes fade2_fade {
+	0% {opacity: 0; }
+	12.5% {opacity: 0; }
+	25% {opacity: 0; }
+	37.5% {opacity: 0;}
+	50% {opacity: 0;}
+	62.5% {opacity: 1;}
+	75% {opacity: 1;}
+	87.5% {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes fade3_fade {
+	0% {opacity: 0; }
+	12.5% {opacity: 0; }
+	25% {opacity: 0; }
+	37.5% {opacity: 0;}
+	50% {opacity: 0;}
+	62.5% {opacity: 0;}
+	75% {opacity: 0;}
+	87.5% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes fade4_fade {
+	0% {opacity: 0; }
+	100% {opacity: 1; }
+}
+
+@-webkit-keyframes color_change{
+	0% {color:black;}
+	50% {color:red;}
+	100% {color:black;}
+}
